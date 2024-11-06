@@ -1,0 +1,9 @@
+executable = montepi.py
+
+output = montepi_$(Process).out
+
+request_cpus = 1
+request_disk = 1MB
+request_memory = 32MB
+
+queue 10
